@@ -1,0 +1,62 @@
+* {
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	line-height: 30px;
+}
+
+body {
+	padding: 20px;
+	max-width: 675px;
+	margin: 0px auto;
+}
+
+h1 {
+	font-family: 'Chela One';
+}
+
+p {
+	font-size: 20px;
+}
+
+a, i {
+	color: #888;
+	font-weight: 400;
+	text-decoration: none;
+
+	/*for fade effect on hover*/
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+.fa {
+	padding: 2px;
+}
+
+.footer__icon-links {
+	font-size: 25px;
+}
+
+.fa-github:hover {
+	color: #333
+}
+
+.fa-twitter:hover {
+	color: #55acee;
+}
+
+.fa-linkedin:hover {
+	color: #0976b4;
+}
+
+.fa-angellist:hover {
+	color: black;
+}
+
+.fa-envelope-square:hover {
+	color: #dd4b39;
+}
