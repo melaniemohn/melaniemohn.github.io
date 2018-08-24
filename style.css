@@ -20,6 +20,13 @@ p {
   font-size: 20px;
 }
 
+::selection {
+  background: #fff0f0;
+}
+::-moz-selection {
+  background: #fff0f0;
+}
+
 p a {
   border-bottom: 1px dashed #bbb;
 }
