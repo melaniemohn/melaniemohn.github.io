@@ -9,7 +9,7 @@
 body {
   padding: 20px;
   max-width: 675px;
-  margin: 50px auto 0px;
+  margin: 50px auto;
 }
 
 h1 {
@@ -45,7 +45,7 @@ p a:hover {
 }
 
 
-a, i {
+a, span {
   color: #888;
   font-weight: 400;
   text-decoration: none;
@@ -58,7 +58,7 @@ a, i {
   transition:.3s;
 }
 
-a:focus, i:focus {
+a:focus, span:focus {
   background: #fff0f0;
   outline: none;
 }
@@ -77,4 +77,75 @@ a:focus, i:focus {
 
 .fa:hover {
   color: #B98EA7;
+}
+
+.resume h1,
+.resume h2,
+.resume p,
+.resume li {
+  text-align: left;
+}
+
+.resume h1 {
+  display: inline-block;
+  float: left;
+  margin: 0 0 10px;
+}
+
+.resume strong {
+  font-weight: 400;
+}
+
+.resume-header {
+  height: auto;
+  overflow: auto;
+}
+
+.resume .contact-info {
+  display: inline-block;
+  float: right;
+}
+
+.resume .contact-info a {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.resume ul {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.resume li > ul {
+  list-style: circle;
+  padding-left: 40px;
+}
+
+.resume-experience li > ul {
+  padding-bottom: 20px;
+}
+
+.resume li > span {
+  color: unset;
+  font-size: 14px;
+  font-weight: unset;
+}
+
+@media (max-width: 480px) {
+  .resume ul {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .resume li > span {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (min-width: 701px) {
+  .resume li > span {
+    float: right;
+  }
 }
