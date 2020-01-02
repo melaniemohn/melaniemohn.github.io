@@ -35,18 +35,20 @@ p {
   background: #fff0f0;
 }
 
-p a {
+p a,
+.resume-experience a {
   border-bottom: 1px dashed #bbb;
 }
 
-p a:hover {
-  border-bottom: 1px solid #b98ea7;
-  color: #b98ea7;
+p a:hover,
+.resume-experience a:hover {
+  border-bottom: 1px solid #832161;
+  color: #832161;
 }
 
 
 a, span {
-  color: #888;
+  color: #889;
   font-weight: 400;
   text-decoration: none;
 
@@ -63,6 +65,10 @@ a:focus, span:focus {
   outline: none;
 }
 
+.resume-experience a {
+  color: initial;
+}
+
 .fa {
   padding: 2px;
 }
@@ -76,7 +82,7 @@ a:focus, span:focus {
 }
 
 .fa:hover {
-  color: #B98EA7;
+  color: #832161;
 }
 
 .resume h1,
