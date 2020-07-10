@@ -61,7 +61,6 @@ a, span {
 }
 
 a:focus, span:focus {
-  background: #fff0f0;
   outline: none;
 }
 
