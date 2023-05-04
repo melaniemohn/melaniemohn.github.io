@@ -8,8 +8,17 @@
 
 body {
   padding: 20px;
+  margin: 20px auto;
   max-width: 675px;
-  margin: 50px auto;
+}
+
+body.bio {
+  height: 90vh;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 body.resume {
@@ -18,6 +27,7 @@ body.resume {
 
 h1 {
   font-family: "Chela One";
+  text-transform: lowercase;
 }
 
 p {
@@ -79,6 +89,7 @@ span:focus {
 
 .footer__icon-links {
   font-size: 25px;
+  margin: 20px auto;
 }
 
 .footer__icon-links a {
