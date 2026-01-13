@@ -1,5 +1,4 @@
 * {
-  color: #25171a;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   text-align: center;
@@ -51,17 +50,21 @@ p {
 
 p a,
 .resume-experience a {
-  border-bottom: 1px dashed #bbb;
+  --link-accent: #889;
+  text-decoration: underline wavy;
+  text-decoration-color: color-mix(in srgb, var(--link-accent) 40%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  text-decoration-skip-ink: none;
 }
 
 p a:hover,
 .resume-experience a:hover {
-  border-bottom: 1px solid #832161;
-  color: #832161;
+  --link-accent: #c00;
+  color: var(--link-accent);
 }
 
-a,
-span {
+a, a > span {
   color: #889;
   font-weight: 400;
   text-decoration: none;
@@ -77,6 +80,14 @@ span {
 a:focus,
 span:focus {
   outline: none;
+}
+
+.oops {
+  text-decoration: underline wavy;
+  text-decoration-color: #c00;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  text-decoration-skip-ink: none;
 }
 
 .resume-experience a {
@@ -97,7 +108,7 @@ span:focus {
 }
 
 .fa:hover {
-  color: #832161;
+  color: #c00;
 }
 
 .resume h1,
