@@ -151,7 +151,7 @@ span:focus {
   padding-left: 40px;
 }
 
-.resume-experience li > ul {
+.resume-experience .role-section {
   padding-bottom: 20px;
 }
 
